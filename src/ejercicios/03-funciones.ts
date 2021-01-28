@@ -63,7 +63,7 @@ const multiplicarFlecha = (numero:number, otroNumero?:number, base:number = 2):n
 interface PersonajeLOD {
     nombre:string;
     pv:number;
-    mostrarHP: () =>void;
+    mostrarHP: () => void;
 }
 
 function curar(personaje:PersonajeLOD, curarX:number):void {
